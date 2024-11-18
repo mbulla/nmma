@@ -1,0 +1,40 @@
+20:01 INFO    : Running for label 'injection', output will be saved to 'outdir'
+20:01 INFO    : Analysis priors:
+20:01 INFO    : log10_mej_dyn=Uniform(minimum=-3.0, maximum=-1.7, name='log10_mej_dyn', latex_label='$\\log_{10}M^{\\rm{dyn}}_{\\rm{ej}}$', unit=None, boundary=None)
+20:01 INFO    : vej_dyn=Uniform(minimum=0.12, maximum=0.25, name='vej_dyn', latex_label='$V^{\\rm{dyn}}_{\\rm{ej}}$', unit=None, boundary=None)
+20:01 INFO    : Yedyn=Uniform(minimum=0.15, maximum=0.3, name='Yedyn', latex_label='$Y_{\\rm{edyn}}$', unit=None, boundary=None)
+20:01 INFO    : log10_mej_wind=Uniform(minimum=-2.0, maximum=-0.89, name='log10_mej_wind', latex_label='$\\log_{10}M^{\\rm{wind}}_{\\rm{ej}}$', unit=None, boundary=None)
+20:01 INFO    : vej_wind=Uniform(minimum=0.03, maximum=0.15, name='vej_wind', latex_label='$V^{\\rm{wind}}_{\\rm{ej}}$', unit=None, boundary=None)
+20:01 INFO    : Yewind=Uniform(minimum=0.2, maximum=0.4, name='Yewind', latex_label='$Y_{\\rm{ewind}}$', unit=None, boundary=None)
+20:01 INFO    : inclination_EM=TruncatedGaussian(mu=0.3717551306747922, sigma=0.04363323129985824, minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='$\\iota$', unit=None, boundary=None)
+20:01 INFO    : timeshift=0.0
+20:01 INFO    : luminosity_distance=40.0
+20:01 INFO    : Ebv=0.0
+20:01 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+20:01 INFO    : Analysis likelihood noise evidence: 0.0
+20:01 INFO    : Single likelihood evaluation took nan s
+20:01 WARNING : Supplied argument 'queue_size' not an argument of 'Pymultinest', removing.
+20:01 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+20:01 INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 7, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fbd506e5900>>}
+20:01 INFO    : Using temporary file /tmp/tmp7u8imyjd
+20:02 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:03 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:04 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:05 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:05 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:06 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:07 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:08 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:09 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:10 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:11 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:11 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:11 INFO    : Overwriting outdir/pm_injection/ with /tmp/tmp7u8imyjd/
+20:11 INFO    : Sampling time: 0:10:24.642793
+20:11 INFO    : Summary of results:
+nsamples: 5981
+ln_noise_evidence:  0.000
+ln_evidence: -89.000 +/-  0.084
+ln_bayes_factor: -89.000 +/-  0.084
+
+20:11 INFO    : Writing samples file to /home/mbulla/nmma/outdir/injection_posterior_samples.dat

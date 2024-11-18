@@ -1,0 +1,42 @@
+16:46 INFO    : Running for label 'injection', output will be saved to 'outdir/tight_nlive1024_lcssmoothed_0.1-10d/'
+16:46 INFO    : Analysis priors:
+16:46 INFO    : log10_mej_dyn=Uniform(minimum=-3.0, maximum=-1.7, name='log10_mej_dyn', latex_label='$\\log_{10}M^{\\rm{dyn}}_{\\rm{ej}}$', unit=None, boundary=None)
+16:46 INFO    : vej_dyn=Uniform(minimum=0.12, maximum=0.25, name='vej_dyn', latex_label='$V^{\\rm{dyn}}_{\\rm{ej}}$', unit=None, boundary=None)
+16:46 INFO    : Yedyn=Uniform(minimum=0.15, maximum=0.3, name='Yedyn', latex_label='$Y_{\\rm{edyn}}$', unit=None, boundary=None)
+16:46 INFO    : log10_mej_wind=Uniform(minimum=-2.0, maximum=-0.89, name='log10_mej_wind', latex_label='$\\log_{10}M^{\\rm{wind}}_{\\rm{ej}}$', unit=None, boundary=None)
+16:46 INFO    : vej_wind=Uniform(minimum=0.03, maximum=0.15, name='vej_wind', latex_label='$V^{\\rm{wind}}_{\\rm{ej}}$', unit=None, boundary=None)
+16:46 INFO    : Yewind=Uniform(minimum=0.2, maximum=0.4, name='Yewind', latex_label='$Y_{\\rm{ewind}}$', unit=None, boundary=None)
+16:46 INFO    : inclination_EM=TruncatedGaussian(mu=0.3717551306747922, sigma=0.04363323129985824, minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='$\\iota$', unit=None, boundary=None)
+16:46 INFO    : timeshift=0.0
+16:46 INFO    : luminosity_distance=40.0
+16:46 INFO    : Ebv=0.0
+16:46 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+16:46 INFO    : Analysis likelihood noise evidence: 0.0
+16:46 INFO    : Single likelihood evaluation took nan s
+16:46 WARNING : Supplied argument 'queue_size' not an argument of 'Pymultinest', removing.
+16:46 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+16:46 INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 7, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7fa60854be20>>}
+16:46 INFO    : Using temporary file /tmp/tmpm44y45n0
+16:47 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:48 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:48 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:49 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:50 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:51 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:52 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:53 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:54 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:55 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:55 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:56 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:57 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:57 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:57 INFO    : Overwriting outdir/tight_nlive1024_lcssmoothed_0.1-10d//pm_injection/ with /tmp/tmpm44y45n0/
+16:57 INFO    : Sampling time: 0:10:42.007501
+16:57 INFO    : Summary of results:
+nsamples: 5328
+ln_noise_evidence:  0.000
+ln_evidence: -124.749 +/-  0.093
+ln_bayes_factor: -124.749 +/-  0.093
+
+16:57 INFO    : Writing samples file to /home/mbulla/nmma/outdir/tight_nlive1024_lcssmoothed_0.1-10d/injection_posterior_samples.dat

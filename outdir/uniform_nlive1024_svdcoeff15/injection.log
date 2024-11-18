@@ -1,0 +1,47 @@
+10:24 INFO    : Running for label 'injection', output will be saved to 'outdir/uniform_nlive1024_svdcoeff15/'
+10:25 INFO    : Analysis priors:
+10:25 INFO    : log10_mej_dyn=Uniform(minimum=-3.0, maximum=-1.7, name='log10_mej_dyn', latex_label='$\\log_{10}M^{\\rm{dyn}}_{\\rm{ej}}$', unit=None, boundary=None)
+10:25 INFO    : vej_dyn=Uniform(minimum=0.12, maximum=0.25, name='vej_dyn', latex_label='$V^{\\rm{dyn}}_{\\rm{ej}}$', unit=None, boundary=None)
+10:25 INFO    : Yedyn=Uniform(minimum=0.15, maximum=0.3, name='Yedyn', latex_label='$Y_{\\rm{edyn}}$', unit=None, boundary=None)
+10:25 INFO    : log10_mej_wind=Uniform(minimum=-2.0, maximum=-0.89, name='log10_mej_wind', latex_label='$\\log_{10}M^{\\rm{wind}}_{\\rm{ej}}$', unit=None, boundary=None)
+10:25 INFO    : vej_wind=Uniform(minimum=0.03, maximum=0.15, name='vej_wind', latex_label='$V^{\\rm{wind}}_{\\rm{ej}}$', unit=None, boundary=None)
+10:25 INFO    : Yewind=Uniform(minimum=0.2, maximum=0.4, name='Yewind', latex_label='$Y_{\\rm{ewind}}$', unit=None, boundary=None)
+10:25 INFO    : inclination_EM=Sine(minimum=0.0, maximum=1.5707963267948966, name='inclination_EM', latex_label='$\\iota$', unit=None, boundary=None)
+10:25 INFO    : timeshift=0.0
+10:25 INFO    : luminosity_distance=40.0
+10:25 INFO    : Ebv=0.0
+10:25 INFO    : Analysis likelihood class: <class 'nmma.em.likelihood.OpticalLightCurve'>
+10:25 INFO    : Analysis likelihood noise evidence: 0.0
+10:25 INFO    : Single likelihood evaluation took nan s
+10:25 WARNING : Supplied argument 'queue_size' not an argument of 'Pymultinest', removing.
+10:25 WARNING : Supplied argument 'check_point_delta_t' not an argument of 'Pymultinest', removing.
+10:25 INFO    : Using sampler Pymultinest with kwargs {'importance_nested_sampling': False, 'resume': True, 'verbose': True, 'sampling_efficiency': 'parameter', 'n_live_points': 1024, 'n_params': 7, 'n_clustering_params': None, 'wrapped_params': None, 'multimodal': True, 'const_efficiency_mode': False, 'evidence_tolerance': 0.5, 'n_iter_before_update': 100, 'null_log_evidence': -1e+90, 'max_modes': 100, 'mode_tolerance': -1e+90, 'seed': 42, 'context': 0, 'write_output': True, 'log_zero': -1e+100, 'max_iter': 0, 'init_MPI': False, 'dump_callback': <bound method Pymultinest._dump_callback of <bilby.core.sampler.pymultinest.Pymultinest object at 0x7f37ec28d4b0>>}
+10:25 INFO    : Using temporary file /tmp/tmp842iyc2i
+10:26 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:26 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:27 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:28 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:29 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:29 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:30 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:31 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:32 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:33 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:34 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:34 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:35 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:36 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:37 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:38 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:39 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:39 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:39 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:39 INFO    : Overwriting outdir/uniform_nlive1024_svdcoeff15//pm_injection/ with /tmp/tmp842iyc2i/
+10:39 INFO    : Sampling time: 0:14:46.912370
+10:39 INFO    : Summary of results:
+nsamples: 6931
+ln_noise_evidence:  0.000
+ln_evidence: -154.602 +/-  0.110
+ln_bayes_factor: -154.602 +/-  0.110
+
+10:39 INFO    : Writing samples file to /home/mbulla/nmma/outdir/uniform_nlive1024_svdcoeff15/injection_posterior_samples.dat

@@ -228,9 +228,12 @@ def Bu2023Ye(data):
     for jj, key in enumerate(magkeys):
         rr = [
             np.abs(float(x))
-            for x in re.findall(
-                r"[-+]?[.]?[\d]+(?:,\d\d\d)*[\.]?\d*(?:[eE][-+]?\d+)?", key
-            )
+            
+            for x in re.findall(r"\d*\.\d+|\d+", key.removeprefix('nph1.0e+06_'))
+
+            #for x in re.findall(
+            #    r"[-+]?[.]?[\d]+(?:,\d\d\d)*[\.]?\d*(?:[eE][-+]?\d+)?", key
+            #)
         ]
 
         # Best to interpolate mass in log10 space
